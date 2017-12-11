@@ -5,10 +5,10 @@
 {
 	"ItemEffectMeterLabel"
 	{
-		"ypos"					"c109"
+		"ypos"					"c124"
 	}
 
 	"ItemEffectMeter"
 	{
-		"ypos"					"c110"
+		"ypos"					"c125"
 }

@@ -8,7 +8,7 @@
 		"xpos"	"0"
 		"ypos"	"0"
 		"wide"	"f0"
-		"tall"	"480"
+		"tall"	"f0"
 	}
 
 	HudWeaponAmmo
@@ -182,13 +182,10 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"r162"	[$WIN32]
-		"ypos"					"r152"	[$WIN32]
-		"ypos_minmode"			"r134"	[$WIN32]
-		"xpos"					"r194"	[$X360]
-		"ypos"					"r174"	[$X360]
-		"wide"					"116"
-		"tall"  				"180"
+		"xpos"					"0"	[$WIN32]
+		"ypos"					"0"	[$WIN32]
+		"wide"					"f0"
+		"tall"  				"f0"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
@@ -197,12 +194,10 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"76"
-		"xpos_minmode"			"61"
-		"ypos"					"r152"
-		"ypos_minmode"			"r134"
-		"wide"					"116"
-		"tall"  				"180"
+		"xpos"					"c-225"
+		"ypos"					"c40"
+		"wide"					"150"
+		"tall"  				"24"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
@@ -214,7 +209,7 @@
 		"xpos"					"0"
 		"ypos"					"0"
 		"wide"					"f0"
-		"tall"					"480"
+		"tall"					"f0"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
@@ -241,10 +236,10 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"285"
+		"ypos"		"c40"
 		"wide"	 	"252"
-		"tall"	 	"35"
-		"tall_minmode"	 	"28"
+		"tall"	 	"24"
+		"tall_minmode"	 	"24"
 		"priority"	"40"
 		"priority_lodef"	"5"
 

@@ -107,3 +107,12 @@ event HudMedicChargedStop
 	Animate	ChargeLabel 	FgColor		"hudPink"		Linear 0.0 0.0001
 	Animate	ChargeMeter 	FgColor		"hudWhite"		Linear 0.0 0.0001
 }
+
+////////////////////////////////////////////////////////////////////////////////
+
+//On Hit (Crosshairs, Damage Numbers)//
+event DamagedPlayer
+{
+	animate DamageNumberLabel fgcolor "hudred"		linear 0.0 0.0
+	animate DamageNumberLabel fgcolor "hudMint"		linear 2.0 0.0
+}
